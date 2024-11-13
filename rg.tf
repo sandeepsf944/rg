@@ -1,5 +1,5 @@
-resource "azurerm_resource_group" "example" {
-  name     = var.rg1_name
+resource "azurerm_resource_group" "resource_group" {
+  name     = var.name
   location = var.location
   tags = {
   }

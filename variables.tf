@@ -1,6 +1,11 @@
-variable rg1_name {
+variable "name" {
     type = string
 }
-variable location {
+variable "location" {
     type = any
+}
+
+variable "tags" {
+    type = map(string)
+    default = null
 }
